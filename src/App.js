@@ -1,4 +1,5 @@
 import "./App.css";
+// import web from '/img/web-developer.png';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <hr className="border" />
       <div className="hero-section p-5  flex flex-col text-center md:flex-row ">
         <img
-          src="../web-developer.png"
+          src="web-developer.png"
           alt="Best web developer"
           className="w-[80%] ml-7 md:w-[45%] xl:w-[40%] xl:ml-10 "
         />
@@ -25,7 +26,7 @@ function App() {
         <div className="flex p-2 xl:p-8">
           <div className="flex flex-col items-center md:m-8 ">
             <img
-              src="../code.jpg "
+              src="code.jpg"
               alt="web development"
               className=" invert w-[35%] md:w-[100%] "
             />
@@ -33,7 +34,7 @@ function App() {
           </div>
           <div className="flex flex-col items-center md:mt-8 xl:mt-10 ">
             <img
-              src="../Graphic-design.png "
+              src="Graphic-design.png "
               alt="web development"
               className=" invert w-[25%] xl:w-[12%] "
             />
@@ -41,7 +42,7 @@ function App() {
           </div>
           <div className="flex flex-col items-center md:mr-8 md:mt-3">
             <img
-              src="../SEO.png "
+              src="SEO.png "
               alt="web development"
               className=" invert w-[45%] md:w-[100%] md:m-2"
             />
