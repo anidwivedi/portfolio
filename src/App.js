@@ -1,5 +1,9 @@
 import "./App.css";
-// import web from '/img/web-developer.png';
+import web from './images/code.jpg';
+import graphic from './images/Graphic-design.png';
+import seo from './images/SEO.png';
+import hero from './images/web-developer.png';
+import work from './images/work 1.png';
 
 function App() {
   return (
@@ -11,7 +15,7 @@ function App() {
       <hr className="border" />
       <div className="hero-section p-5  flex flex-col text-center md:flex-row ">
         <img
-          src="web-developer.png"
+          src={hero}
           alt="Best web developer"
           className="w-[80%] ml-7 md:w-[45%] xl:w-[40%] xl:ml-10 "
         />
@@ -26,7 +30,7 @@ function App() {
         <div className="flex p-2 xl:p-8">
           <div className="flex flex-col items-center md:m-8 ">
             <img
-              src="code.jpg"
+              src={web}
               alt="web development"
               className=" invert w-[35%] md:w-[100%] "
             />
@@ -34,7 +38,7 @@ function App() {
           </div>
           <div className="flex flex-col items-center md:mt-8 xl:mt-10 ">
             <img
-              src="Graphic-design.png "
+              src={graphic}
               alt="web development"
               className=" invert w-[25%] xl:w-[12%] "
             />
@@ -42,7 +46,7 @@ function App() {
           </div>
           <div className="flex flex-col items-center md:mr-8 md:mt-3">
             <img
-              src="SEO.png "
+              src={seo}
               alt="web development"
               className=" invert w-[45%] md:w-[100%] md:m-2"
             />
@@ -53,7 +57,7 @@ function App() {
       <hr />
       <div className="my-work py-5 ">
         <h2 className="text-xl p-3 font-medium md:text-2xl md:font-bold xl:text-3xl xl:ml-5">My Work</h2>
-        <img src="work 1.png" alt="sample of web design" className="w-[95%] xl:w-[80%] xl:px-10" />
+        <img src={work} alt="sample of web design" className="w-[95%] xl:w-[80%] xl:px-10" />
       </div>
       <hr />
       <div className="about">
